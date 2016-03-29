@@ -1,0 +1,30 @@
+{
+  "name": "skeleton-basic-challenge",
+  "version": "1.0.0",
+  "description": "Template/Skeleton to create basic single file codecheck challenge.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code-check/skeleton-basic-challenge.git"
+  },
+  "keywords": [
+    "codecheck",
+    "c++"
+  ],
+  "author": "Givery Inc.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/code-check/skeleton-basic-challenge/issues"
+  },
+  "homepage": "https://github.com/code-check/skeleton-basic-challenge#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "codecheck": "^0.5.2"
+  }
+}

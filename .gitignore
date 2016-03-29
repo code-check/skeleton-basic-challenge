@@ -1,0 +1,8 @@
+node_modules/
+a.out
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
