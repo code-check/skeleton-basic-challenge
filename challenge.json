@@ -1,25 +1,22 @@
 {
   "tags": [
     "Language",
-    "Algorithm or Database or Something"
-    "Keyword1",
-    "Keyword2",
+    "Algorithm"
   ],
   "editable": [
-    "filepath of main files to solve the challenge",
+    "app/challenge.py",
     ".gitignore",
     "answer.md",
     "codecheck.yml"
   ],
   "excludes": [
-    "challenge.json",
-    "filepath of hidden tests"
+    "challenge.json"
   ],
-  "main" : "filepath of main files to solve the challenge",
+  "main" : "app/challenge.py",
   "readme" : {
     "en" : "README.md",
     "ja" : "README_ja.md"
   },
   "allowNewFile": true,
-  "test": "test command"
+  "test": "nosetests"
 }
