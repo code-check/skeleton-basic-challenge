@@ -1,0 +1,32 @@
+{
+  "name": "skeleton-basic-challenge",
+  "version": "1.0.0",
+  "description": "JavaScript basic challenge skeleton",
+  "main": "app/challenge.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code-check/skeleton-basic-challenge.git"
+  },
+  "keywords": [
+    "challenge",
+    "skeleton",
+    "JavaScript",
+    "js",
+    "codecheck"
+  ],
+  "author": "Givery Inc.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/code-check/skeleton-basic-challenge/issues"
+  },
+  "homepage": "https://github.com/code-check/skeleton-basic-challenge#readme",
+  "devDependencies": {
+    "chai": "^3.5.0"
+  }
+}
