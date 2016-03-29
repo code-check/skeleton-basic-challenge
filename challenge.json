@@ -1,25 +1,22 @@
 {
   "tags": [
-    "Language",
-    "Algorithm or Database or Something"
-    "Keyword1",
-    "Keyword2",
+    "Ruby",
+    "Algorithm"
   ],
   "editable": [
-    "filepath of main files to solve the challenge",
+    "app/challenge.rb",
     ".gitignore",
     "answer.md",
     "codecheck.yml"
   ],
   "excludes": [
-    "challenge.json",
-    "filepath of hidden tests"
+    "challenge.json"
   ],
-  "main" : "filepath of main files to solve the challenge",
+  "main" : "app/challenge.rb",
   "readme" : {
     "en" : "README.md",
     "ja" : "README_ja.md"
   },
   "allowNewFile": true,
-  "test": "test command"
+  "test": "rspec -P test/*"
 }

@@ -8,3 +8,7 @@ Template/Skeleton to create basic single file codecheck challenge.
 4. challenge.json with all the options
 5. codecheck.yml - Please refer [this](https://github.com/code-check/codecheck/blob/master/README.md) for options in codecheck.yml file
 6. answer.md for user's point of view while solving the challenge.
+
+Follow rails convention
+  - use underscores
+ 
