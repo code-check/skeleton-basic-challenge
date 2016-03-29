@@ -1,12 +1,4 @@
 build:
-  sbt build
+  go build src/challenge/challenge.go 
 test:
-  sbt test
-web:
-  command: sbt run
-  port: 9000
-  console: true
-  dir: app
-  testUrl: localhost:9000  
-config:
-  timeout: 5000
+  go test -v challenge
