@@ -1,25 +1,23 @@
 {
   "tags": [
-    "Language",
-    "Algorithm or Database or Something"
-    "Keyword1",
-    "Keyword2",
+    "Java",
+    "Algorithm"
   ],
   "editable": [
-    "filepath of main files to solve the challenge",
+    "src/main/java/Challenge.java",
     ".gitignore",
     "answer.md",
-    "codecheck.yml"
+    "codecheck.yml",
+    "pom.xml"
   ],
   "excludes": [
-    "challenge.json",
-    "filepath of hidden tests"
+    "challenge.json"
   ],
-  "main" : "filepath of main files to solve the challenge",
+  "main" : "src/main/java/Challenge.java",
   "readme" : {
     "en" : "README.md",
     "ja" : "README_ja.md"
   },
   "allowNewFile": true,
-  "test": "test command"
+  "test": "mvn test"
 }
