@@ -1,25 +1,22 @@
 {
   "tags": [
-    "Language",
-    "Algorithm or Database or Something"
-    "Keyword1",
-    "Keyword2",
+    "CSharp",
+    "Algorithm"
   ],
   "editable": [
-    "filepath of main files to solve the challenge",
+    "src/Challenge.cs",
     ".gitignore",
     "answer.md",
     "codecheck.yml"
   ],
   "excludes": [
-    "challenge.json",
-    "filepath of hidden tests"
+    "challenge.json"
   ],
-  "main" : "filepath of main files to solve the challenge",
+  "main" : "src/Challenge.cs",
   "readme" : {
     "en" : "README.md",
     "ja" : "README_ja.md"
   },
   "allowNewFile": true,
-  "test": "test command"
+  "test": "nunit-console target/challenge.dll"
 }

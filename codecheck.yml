@@ -1,12 +1,4 @@
 build:
-  sbt build
-test:
-  sbt test
-web:
-  command: sbt run
-  port: 9000
-  console: true
-  dir: app
-  testUrl: localhost:9000  
-config:
-  timeout: 5000
+  mcs src/*.cs -reference:nunit.framework.dll -target:library -out:target/challenge.dll
+test: 
+  nunit-console target/challenge.dll
